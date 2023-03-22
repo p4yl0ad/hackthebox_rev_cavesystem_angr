@@ -3,7 +3,7 @@ rev_cavesystem reversing challenge solved with angr
 
 
 ```
-sudo docker run -it angr/angr --volume=/home/kali/HTB/CA:/data /bin/bash
+sudo docker run --volume=/home/kali/HTB/CA:/data -it angr/angr
 ```
 
 
